@@ -1,4 +1,4 @@
-const { spawn } = require('child_process');
+const spawn = require('cross-spawn');
 const platform = require('os').platform();
 
 const bin = './ngrok' + (platform === 'win32' ? '.exe' : '');

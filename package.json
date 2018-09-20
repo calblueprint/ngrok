@@ -1,5 +1,5 @@
 {
-  "name": "ngrok",
+  "name": "@calblueprint/ngrok",
   "version": "3.0.1",
   "description": "node wrapper for ngrok",
   "main": "index.js",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/bubenshchykov/ngrok.git"
+    "url": "git://github.com/calblueprint/ngrok.git"
   },
   "keywords": [
     "ngrok",
@@ -27,10 +27,10 @@
     "localtunnel",
     "webhook"
   ],
-  "author": "bubenshchykov",
+  "author": "calblueprint",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/bubenshchykov/ngrok/issues"
+    "url": "https://github.com/calblueprint/ngrok/issues"
   },
   "devDependencies": {
     "chai": "~3.5.0",
@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "@types/node": "^8.0.19",
+    "cross-spawn": "^6.0.5",
     "decompress-zip": "^0.3.0",
     "request": "^2.83.0",
     "request-promise-native": "^1.0.5",
